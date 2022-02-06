@@ -60,6 +60,9 @@ Donde:
 * venv: Llamada al módulo ``venv`` conocido como virtual environment.
 * env: Nombre de nuestro entorno virtual.
 
+Alternativa: 
+``python -m venv env  ``
+
 En este punto, se crean algunos directorios:
 ```
 /env
@@ -84,6 +87,9 @@ Así es como puede verse la activación en distintos sistemas operativos.
   # Bash | Consola
   # Windows
   env\bin\activate
+  
+  # Alternativa Windows 
+  env\Scripts\activate
 
   # Linux, WSL o macOS
   source env/bin/activate
